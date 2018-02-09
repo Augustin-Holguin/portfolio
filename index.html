@@ -9,9 +9,11 @@
   <link rel="stylesheet" href="main.css" type="text/css"/>
 </head>
 <body>
+
   <div id="particles-js">
     <div id="app">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <h1 id="title-header" @click="showAbout">AH</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,17 +42,19 @@
       <h1 v-if="about">Augustin Holguín</h1>
 
       <!-- ABOUT -->
-      <div class=".col-6 .col-lg-4">
         <div class="about" v-if="about">
           <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAubAAAAJDcwODM2MmJkLWU4ZjEtNGE2Yy1hOTAyLTYyZTNkN2I4N2JmYw.jpg">
           <h3>
             25 years old master student at Rotterdam School of Management (Erasmus University)
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I am currently completing a master's degree in Innovation Management at Rotterdam School of Management.<br><br>
+            Also learning how to code: I completed a 3 month web development bootcamp in Paris and now focusing on expanding my knowledge of JavaScript and building apps with VueJS & NodeJS. I am currently participating in the 100 days of code challenge during which I have to code at least one hour each day and publicly share my progress here:
+            <br><br>Github 👉 <a href="https://github.com/gusholguin" target="_blank">https://github.com/gusholguin</a><br><br>
+            I am looking for a position in Product Management / Development starting July 2017.<br><br>
+            Do not hesitate to contact me for any additional information.<br><br><br><br>
           </p>
         </div>
-      </div>
 
       <!-- EXPERIENCE -->
       <div class="experiencee" v-if="experience">
