@@ -57,14 +57,29 @@
         </div>
 
       <!-- EXPERIENCE -->
-      <div class="experiencee" v-if="experience">
+      <div class="experience" v-if="experience">
         <ul>
-          <li id="exp">2014</li>
-          <li id="exp">2015</li>
-          <li id="exp">2016</li>
-          <li id="exp">2017</li>
-          <li id="exp">2018</li>
+          <li id="exp" @click="show">2014</li>
+          <li id="exp" @click="show">2015</li>
+          <li id="exp" @click="show">2016</li>
+          <li id="exp" @click="show">2017</li>
+          <li id="exp" @click="show">2018</li>
         </ul>
+        <div class="experience-detail" v-if="">
+
+        </div>
+        <div class="experience-detail" v-if="">
+
+        </div>
+        <div class="experience-detail" v-if="">
+
+        </div>
+        <div class="experience-detail" v-if="">
+
+        </div>
+        <div class="experience-detail" v-if="">
+
+        </div>
       </div>
 
       <!-- PORTFOLIO -->
