@@ -68,6 +68,15 @@ ul li:hover {
   font-weight: bold;
 }
 
+.navbar-toggler-icon {
+  transition: all .2s ease-in-out;
+}
+
+.navbar-toggler-icon:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
 /* ABOUT */
 .about {
   box-sizing: border-box;
