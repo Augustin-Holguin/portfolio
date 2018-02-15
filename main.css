@@ -13,7 +13,7 @@ body {
 }
 
 .bg-dark {
-  background-color: #669B7C!important;
+  background-color: #537791!important;
   box-shadow: 0 .1px 5px;
 }
 
@@ -86,7 +86,7 @@ ul li:hover {
 }
 
 .about h3 {
-  color: #557669;
+  color: #537791;
   padding-top: 5px;
   padding-left: 120px;
   padding-right: 20px;
@@ -191,7 +191,7 @@ ul li:hover {
 }
 
 .contact i:hover {
-  color: #669B7C;
+  color: #537791;
 }
 
 footer {
@@ -240,9 +240,9 @@ footer {
     margin-right: 20px;
   }
   .experience ul li#exp {
-    font-size: 0.8em;
-    padding-left: 3px!important;
-    padding-right: 3px!important;
+    font-size: 0.9em;
+    padding-left: 2px!important;
+    padding-right: 2px!important;
   }
 }
 
