@@ -208,6 +208,7 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* ABOUT */
 @media (max-width: 500px) {
   h1 {
     font-size: 3em;
@@ -227,5 +228,31 @@ footer {
   }
   p {
     width: 400px;
+  }
+}
+
+/* EXPERIENCE */
+@media (max-width: 500px) {
+  .experience {
+    width: 400px;
+  }
+  .experience ul {
+    margin-right: 20px;
+  }
+  .experience ul li#exp {
+    font-size: 0.8em;
+    padding-left: 3px!important;
+    padding-right: 3px!important;
+  }
+}
+
+/* MUSIC */
+@media (max-width: 500px) {
+  .music {
+    width: 400px;
+    height: 650px;
+  }
+  .music iframe {
+    margin-bottom: 20px;
   }
 }
