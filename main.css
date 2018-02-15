@@ -208,17 +208,24 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 992px) {
-  .container {
-    width: 900px;
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3em;
   }
-}
-
-@media (min-width: 576px) {
-  .container {
-    display: block;
-    max-width: 20%;
+  .about {
     margin: auto;
-    height: auto;
+    width: 400px;
+  }
+
+  .about img {
+    width: 80px;
+    height: 80px;
+  }
+  .about h3 {
+    font-size: 1.2em;
+    padding-left: 60px;
+  }
+  p {
+    width: 400px;
   }
 }
