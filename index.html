@@ -12,26 +12,27 @@
 
   <div id="particles-js">
     <div id="app">
+
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <h1 id="title-header" @click="showAbout">AH</h1>
+        <h1 id="title-header" data-toggle="collapse" data-target=".navbar-collapse.show" @click="showAbout">AH</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item" @click="showAbout">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" @click="showAbout">
               <a class="nav-link">About<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item" @click="showExperience">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" @click="showExperience">
               <a class="nav-link">Experience</a>
             </li>
-            <li class="nav-item" @click="showPortfolio">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" @click="showPortfolio">
               <a class="nav-link">Portfolio</a>
             </li>
-            <li class="nav-item" @click="showMusic">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" @click="showMusic">
               <a class="nav-link">Music</a>
             </li>
-            <li class="nav-item" @click="showContact">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" @click="showContact">
               <a class="nav-link">Contact</a>
             </li>
           </ul>
@@ -43,7 +44,7 @@
 
       <!-- ABOUT -->
         <div class="about" v-if="about">
-          <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAubAAAAJDcwODM2MmJkLWU4ZjEtNGE2Yy1hOTAyLTYyZTNkN2I4N2JmYw.jpg">
+          <img src="./images/linkedin.jpg">
           <h3>
             25 years old master student at Rotterdam School of Management (Erasmus University)
           </h3>
