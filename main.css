@@ -113,6 +113,10 @@ ul li:hover {
   box-shadow: -10px 10px;
 }
 
+.experience-detail {
+  padding: 0 10px;
+}
+
 .experience ul {
   margin-top: 10px;
   margin-right: 30px;
@@ -272,6 +276,7 @@ footer {
 @media (max-width: 400px) {
   .experience {
     width: 300px;
+    font-size: 0.8em;
   }
   .experience ul {
     margin-right: 0px;

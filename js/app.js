@@ -6,7 +6,13 @@ var app = new Vue ({
       experience: false,
       portfolio: false,
       music: false,
-      contact: false
+      contact: false,
+      // EXPERIENCE
+      n: true,
+      nMinusOne: false,
+      nMinusTwo: false,
+      nMinusThree: false,
+      nMinusFour: false
     }
   },
   methods: {
@@ -44,6 +50,42 @@ var app = new Vue ({
       this.portfolio = false
       this.about = false
       this.music = false
+    },
+    //EXPERIENCE
+    show2018 () {
+      this.n = true
+      this.nMinusOne = false
+      this.nMinusTwo = false
+      this.nMinusFour = false
+      this.nMinusThree = false
+    },
+    show2017 () {
+      this.nMinusOne = true
+      this.nMinusTwo = false
+      this.nMinusFour = false
+      this.n = false
+      this.nMinusThree = false
+    },
+    show2016 () {
+      this.nMinusTwo = true
+      this.nMinusOne = false
+      this.nMinusFour = false
+      this.n = false
+      this.nMinusThree = false
+    },
+    show2015 () {
+      this.nMinusThree = true
+      this.nMinusTwo = false
+      this.nMinusOne = false
+      this.nMinusFour = false
+      this.n = false
+    },
+    show2014 () {
+      this.nMinusFour = true
+      this.nMinusOne = false
+      this.nMinusTwo = false
+      this.n = false
+      this.nMinusThree = false
     }
   }
 })

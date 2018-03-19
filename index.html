@@ -58,32 +58,33 @@
         </div>
 
       <!-- EXPERIENCE -->
-      <div class="experience" v-if="experience">
+      <div class="experience" v-if="experience" id="experience">
         <ul>
-          <li id="exp" @click="show">2014</li>
-          <li id="exp" @click="show">2015</li>
-          <li id="exp" @click="show">2016</li>
-          <li id="exp" @click="show">2017</li>
-          <li id="exp" @click="show">2018</li>
+          <li id="exp" @click="show2014">2014</li>
+          <li id="exp" @click="show2015">2015</li>
+          <li id="exp" @click="show2016">2016</li>
+          <li id="exp" @click="show2017">2017</li>
+          <li id="exp" @click="show2018">2018</li>
         </ul><br><br>
-        <div class="experience-detail" v-if="">
+        <div class="experience-detail" v-if="n">
           Occasionally do freelance work for companies. <br><br>
           👔 Consulted a French startup concerning their user acquisition strategy <br>
           ↗️ Business development for a <a href="http://www.easyloisirs.com/" target="_blank">startup</a> in Paris specializing in digitizing the tourism industry <br>
           🌐 Translated a website of a <a href="https://www.mycuistot.fr/en" target="_blank">startup</a> which provides personal Chefs on demand from French to English for their expansion in the US market
         </div>
-        <div class="experience-detail" v-if="">
-
+        <div class="experience-detail" v-if="nMinusOne">
+          2017
         </div>
-        <div class="experience-detail" v-if="">
-
+        <div class="experience-detail" v-if="nMinusTwo">
+          2016
         </div>
-        <div class="experience-detail" v-if="">
-
+        <div class="experience-detail" v-if="nMinusThree">
+          2015
         </div>
-        <div class="experience-detail" v-if="">
-
+        <div class="experience-detail" v-if="nMinusFour">
+          2014
         </div>
+        <script src="js/experience.js"></script>
       </div>
 
       <!-- PORTFOLIO -->
