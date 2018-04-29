@@ -164,7 +164,6 @@ ul li:hover {
 .music iframe {
   padding-right: 10px;
   padding-left: 10px;
-  width: 240px;
 }
 
 /* CONTACT */
@@ -198,7 +197,7 @@ footer {
   padding-bottom: 5px;
   background: #e2e2e2;
   color: #66768e;
-  border-top: solid 1px #f0f0f0;
+  border-top: solid .5px #f0f0f0;
 }
 
 /* MEDIA QUERIES */
